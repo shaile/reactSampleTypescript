@@ -1,4 +1,4 @@
-const storagePrefix = 'rover_'
+const storagePrefix = 'react_'
 
 const storage = {
   getToken: () => {

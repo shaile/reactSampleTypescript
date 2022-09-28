@@ -1,12 +1,17 @@
-import { Box, Container } from '@mui/system'
-import * as React from 'react'
+
 
 export default function Dashboard() {
   return (
     <>
-      <Container maxWidth='sm'>
-        <Box sx={{ bgcolor: '#cfe8fc', height: '100vh' }} />
-      </Container>
+      <div style={{ padding: 10 }}>
+            <div className='dashboardPage' >
+                <h1>
+                    Dashboard
+                </h1>
+                <button className='logoutBtn' >Logout</button>
+            </div>
+            <p>Welcome to the dashboard</p>
+        </div>
     </>
   )
 }
